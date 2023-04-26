@@ -10,7 +10,6 @@ const SptmAudio = function () {
   let gainNoise, gainSine
 
   function init() {
-    audioCtx = new AudioContext()
 
     if (audioCtx.state === 'suspended') {
       audioCtx.resume()
@@ -140,7 +139,6 @@ const SptmAudio = function () {
     }
 
     
-    
   return {
     init,
     start,
@@ -156,8 +154,8 @@ const SptmAudio = function () {
     detenerCamaraFunc,
     iniciarAF1,
     iniciarAF2,
-      chgainNoise,
-      chgainSine
+    chgainNoise,
+    chgainSine
   }
 }
 

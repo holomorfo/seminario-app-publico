@@ -11,6 +11,10 @@ header {
   background-color: #000000;
 }
 
+#console {
+  margin-top: 40px;
+}
+
 header h1 {
   color: #fff;
   text-transform: uppercase;

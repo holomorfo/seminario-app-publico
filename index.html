@@ -14,6 +14,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
   <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="stylesheet" href="./css/dark.css">
+  <link rel="stylesheet" href="./css/dark.css">
+  <script src="./js/terminal.js"></script>
   <title>SPTM</title>
 </head>
 
@@ -125,6 +128,13 @@
       preguntas que vienen de la práctica musical.
     </p>
   </section>
+
+  <section id="LiveAudio" class="contacto">
+    <h1>Live Audio</h1>
+    <div id="console">
+    <terminal-js></terminal-js>
+    </div>
+  </section>
   <section id="contacto" class="contacto">
   </section>
 
@@ -132,8 +142,7 @@
     &copy; SPTM v1.0.2
     <script>document.write(new Date().getFullYear())</script>
   </footer>
-  <script type="module" src="./inicio.js"></script>
-  <!-- <script type="module" src="./traducciones.js"></script> -->
+  <script type="module" src="./main.js"></script>
   <script>
     $('.menu-toggle').click(function () {
       $(".nav").toggleClass("mobile-nav");
