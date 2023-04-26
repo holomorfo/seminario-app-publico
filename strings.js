@@ -39,8 +39,8 @@ const sp = {
       preguntas que vienen de la práctica musical.`
 }
 
-const en = sp  
-const fr = sp 
+const en = {}
+const fr = {}
 
 module.exports = {
   sp,
